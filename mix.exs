@@ -31,7 +31,7 @@ defmodule ChineseTranslation.Mixfile do
 
   defp deps do
     [
-      {:httpoison, "~> 0.13"},
+      {:httpoison, "~> 1.5.0"},
 
       # dev & test
       {:benchfella, "~> 0.3.5", only: [:dev]},
